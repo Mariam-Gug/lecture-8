@@ -1,13 +1,15 @@
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
     .top-section {
         margin-top: 160px;
     }
     .top-section-text-box {
+        min-width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .top-section-text-box h2 {
+        width: 100%;
         text-align: center;
     }
     .top-section-text-box p {
@@ -19,8 +21,7 @@
         margin-bottom: 60px;
     }
     .image1 {
-        /* width: 550px; */
-        width: 40%;
+        min-width: 50%;
     }
     .bottom-section {
         margin-top: 100px;
@@ -34,7 +35,7 @@
     .navigation {
         display: none;
     }
-    .fa-bars {
+    .burger-bar {
         display: inline-block;
     }
     .top-section {
