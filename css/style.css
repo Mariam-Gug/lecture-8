@@ -49,14 +49,14 @@ header {
     justify-content: center;
 }
 .wrapper1 {
-    max-width: 1000px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .top-section-text-box {
-    width: 500px;
+    width: 40%;
+    margin-left: 20px;
     color: #534D4D;
 }
 .top-section-text-box h2 {
@@ -73,10 +73,17 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
-.image1 {
-    max-width: 500px;
+.image1-wrapper {
+    max-width: 600px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* top section blue button */
+.image1 {
+    width: 90%;
+}
+/* top section's blue button */
 .blue-button {
     display: flex;
     justify-content: center;
@@ -100,7 +107,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
 }
-/* botton sections titles and text */
+/* botton section's titles and text */
 .wrapper2 {
     width: 100%;
     display: flex;
@@ -132,7 +139,7 @@ header {
 .wrapper3 {
     margin: 60px 0;
     max-width: 1000px;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
